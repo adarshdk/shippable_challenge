@@ -1,1 +1,1 @@
-# shippable_challenge
+This is the submission for Shippable's coding challenge.

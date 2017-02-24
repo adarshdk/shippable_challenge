@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Display open issues in a Github repo</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/getIssues.js"></script>
+
+
+</head>
+
+
+<body>
+
+	<div class = "repo_input">
+		Enter GitHub repo link:<br />
+		<input type="text" name="repo" id="repo_name">
+		<button id="refresh">See open issues!</button>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">Open Issues</div>
+  		<table class="table" id="issues_table">
+  		</table>
+	</div>
+</body>
+
+</html>
