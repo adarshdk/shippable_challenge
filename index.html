@@ -22,10 +22,12 @@
 
 <body>
 
-	<div class = "repo_input">
-		Enter GitHub repo link:<br />
-		<input type="text" name="repo" id="repo_name">
-		<button id="refresh">See open issues!</button>
+	<div class="navbar navbar-default text-center">
+		<div class="input-group">
+  			<span class="input-group-addon" id="basic-addon1">GitHub Clone URL:</span>
+  			<input type="text" class="form-control" placeholder="URL" aria-describedby="basic-addon1" id="repo_name">
+		</div>		
+		<button id="refresh" class="btn btn-default">See open issues!</button>
 	</div>
 	<div class="panel panel-default">
 		<div class="panel-heading">Open Issues</div>
